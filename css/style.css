@@ -1,17 +1,15 @@
 a {
     justify-content: flex-end;
-}
-.img {
-    height: 850px;
-}
-h2 {
-    color: white;
-    margin-right: 25vh;
+
 }
 
-.appointment {
-    display: flex;
-    flex-direction: column;
+a:visited {
+    color: blue;
+}
+
+a:hover, a:active {
+    font-size: 120%;
+    background-color: yellow;
 }
 
 .appointment2 {
@@ -19,27 +17,69 @@ h2 {
     justify-content: space-evenly;
 }
 
-h1 {
-    background-color: red;
-    height: 45vh;
+.about2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh;
+}
+
+.comment {
+    margin: 0;
+    padding: 1px;
+}
+
+.faq1 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+h1 {
+    background-color: red;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color: white;
+    margin-right: 25vh;
+}
+
+h4 {
+    margin-bottom: 3vh;
+}
+
 .input {
     width: 45vh;
     margin-bottom: 20px;
+    display: flex;
+}
 
+.input1 {
+    width: 45vh;
+    display: flex;
+}
+
+.img {
+    height: 850px;
 }
 
 
-#textarea {
+
+
+.textarea {
     width: 45vh;
     margin-top: 20px;
     display: flex;
+    margin-bottom: 20px;
+}
 
-
+.textarea1 {
+    width: 45vh;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .table1 {
