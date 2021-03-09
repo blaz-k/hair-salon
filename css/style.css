@@ -2,9 +2,32 @@ a {
     justify-content: flex-end;
 }
 .img {
-    width: 25vh;
+    height: 850px;
 }
 h2 {
     color: white;
     margin-right: 25vh;
+}
+
+.appointment {
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    background-color: red;
+    height: 45vh;
+}
+
+.input {
+    width: 45vh;
+}
+
+.table1 {
+    width: 60vh;
 }
