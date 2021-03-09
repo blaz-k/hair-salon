@@ -1,0 +1,10 @@
+a {
+    justify-content: flex-end;
+}
+.img {
+    width: 25vh;
+}
+h2 {
+    color: white;
+    margin-right: 25vh;
+}
