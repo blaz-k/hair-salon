@@ -20,7 +20,7 @@
         <div class="navbar navbar-dark bg-dark">
             <h2>Hairdresser Hans</h2>
             <a href="#">Our services</a>
-            <a href="#">make an appointment</a>
+            <a href="#">Make an appointment</a>
             <a href="#">FAQ</a>
             <a href="#">About us</a>
             <input type="text" name="search" placeholder="search">
@@ -78,8 +78,39 @@
 
 
             <div class="our services">
-                <h1>Our services</h1>
+                <div>
+                    <h1>Our services</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://www.study365.co.uk/wp-content/uploads/2019/03/Diploma-in-Hair-Care-and-Hair-Styling-Level-3.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">HAIRSTYLES</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://i0.wp.com/kislly.com/wp-content/uploads/2018/09/ombre-hair-highlights.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">COLORING</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
 
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card h-100">
+                      <img src="https://www.menshairstylesnow.com/wp-content/uploads/2017/01/The-Undercut-Hairstyle-For-Men-800x400.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">HAIRCUTS</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
 
             <div class="appointment">
@@ -159,41 +190,64 @@
                 <div>
                     <h1>FAQ</h1>
                 </div>
+                <div class="faq1 ">
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            DO YOU HAVE GIFT CERTIFICATES?
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <em>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</em>.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            CAN I BRING MY PET ALONG?
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <em>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</em>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            WHAT AWARDS DID YOU RECIVE SO FAR?
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                              <em>Contrary to popular belief, Lorem Ipsum is not simply random text.
+                                  It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</em>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
 
                 <div class="faq1">
-                    <div>
-                        <div>
-                            <div>
-                                <button type="submit" class="input1">Do you have gift certificates</button>
-                            </div>
-                            <div>
-                                <textarea class="textarea1" rows="5">p>ssUbi est alter demolitione?Sonic shower of a small advice, observe the alignment!Meatloaf salad has to have a warm, roasted chickpeas component.1.dd</textarea>
-
-                            </div>
-                            <div>
-                                <button type="submit" class="input">Can i bring my pet along?</button>
-                            </div>
-                            <div>
-                                <button type="submit" class="input">What awards did you recive so far?</button>
-                            </div>
-                        </div>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
                         <div class="comment">
                             <div>
                                 <h3>Post a comment</h3>
                             </div>
                             <div>
                                 <label>Name</label>
-                                <input type="text" placeholder="First and last name" class="input margin-bottom" >
+                                <input type="text" placeholder="First and last name" class="input2 margin-bottom" >
                             </div>
                             <div>
                                 <label>Email</label>
-                                <input type="email" placeholder="your@email.com" class="input margin-bottom" >
+                                <input type="email" placeholder="your@email.com" class="input2 margin-bottom" >
                             </div>
-
                             <div>
                                 <label>Comment</label>
                                 <textarea class="textarea1" rows="5"></textarea>
@@ -202,37 +256,32 @@
                     </div>
                 </div>
             </div>
-
-
-            <div class="about" >
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+    <!----footer---->
+            <div class="about2 padding-top bg-dark">
                 <div>
-                    <h1>About us</h1>
+                    <h4>Contact</h4>
+                    <p>Friseur Hans GmbH</p>
+                    <p>Tax number: 32435698</p>
+                    <p>Phone: 00348/5894865</p>
+                    <p>Friseeurgasse 5, 1020 wien</p>
+                    <p>Email: friseur.hans@gmail.com</p>
                 </div>
-                <div class="about2">
-                    <div>
-                        <h4>Contact</h4>
-                        <p>Friseur Hans GmbH</p>
-                        <p>Tax number: 32435698</p>
-                        <p>Phone: 00348/5894865</p>
-                        <p>Friseeurgasse 5, 1020 wien</p>
-                        <p>Email: friseur.hans@gmail.com</p>
-                    </div>
-                    <div>
-                        <h4>Navigation</h4>
-                        <p><a href="#" class="link-dark">Our services</a></p>
-                        <p><a href="#" class="link-dark">Make an appointment</a></p>
-                        <p><a href="#" class="link-dark">Our services</a></p>
-                        <p><a href="#" class="link-dark">Our services</a></p>
-                    </div>
+                <div>
+                    <h4>Navigation</h4>
+                    <p><a href="#">Our services</a></p>
+                    <p><a href="#">Make an appointment</a></p>
+                    <p><a href="#">Our services</a></p>
+                    <p><a href="#">Our services</a></p>
                 </div>
-
             </div>
         </div>
-
-
-    <!----footer---->
-
-
     </body>
 
 

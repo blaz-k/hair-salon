@@ -4,12 +4,12 @@ a {
 }
 
 a:visited {
-    color: blue;
+    color: green;
 }
 
 a:hover, a:active {
     font-size: 120%;
-    background-color: yellow;
+    color: red;
 }
 
 .appointment2 {
@@ -20,7 +20,7 @@ a:hover, a:active {
 .about2 {
     display: flex;
     justify-content: space-between;
-    margin: 3vh;
+    padding: 3vh;
 }
 
 .comment {
@@ -32,14 +32,17 @@ a:hover, a:active {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 7vh;
+
 }
 
 h1 {
-    background-color: red;
+    background-color: ;
     height: 13vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 7vh;
 }
 
 h2 {
@@ -58,7 +61,12 @@ h4 {
 }
 
 .input1 {
-    width: 45vh;
+    width: 120vh;
+    display: flex;
+}
+
+.input2 {
+    width: 120vh;
     display: flex;
 }
 
@@ -66,8 +74,13 @@ h4 {
     height: 850px;
 }
 
+.margin-left {
+    margin-left: ;
+}
 
-
+p {
+    color: white;
+}
 
 .textarea {
     width: 45vh;
@@ -77,7 +90,7 @@ h4 {
 }
 
 .textarea1 {
-    width: 45vh;
+    width: 120vh;
     display: flex;
     margin-bottom: 20px;
 }
